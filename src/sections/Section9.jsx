@@ -9,7 +9,22 @@ function Section9() {
     <section className='section9'>
         <div className='image-container'>
             <img src="./images/john-amachaab-xIH6XLSc9JM-unsplash 1.png" alt="contact image" />
-            <div className="overlay"></div>
+            <div className="overlay">
+                <div className="wrapper">
+                    <div className="location">
+                        <h3>Location</h3>
+                        <p>No.12, Subramanya Arcade, Main <br /> road, Bangaluru</p>
+                    </div>
+                    <div className="phone">
+                        <h3>Phone No.</h3>
+                        <p>+91 8026788015. +91 8040684225</p>
+                    </div>
+                    <div className="email">
+                        <h3>Email</h3>
+                        <p>info@gmail.com</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div className="contact-form">
             <h3>Contact us to disuss your <br /> project with us </h3>
